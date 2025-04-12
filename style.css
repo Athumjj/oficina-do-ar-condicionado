@@ -54,6 +54,10 @@ body {
     bottom: 30px;
 }
 
+#main div h1 {
+    font-size: 49px;
+}
+
 #main div a {
     width: 100%;
 }
@@ -83,6 +87,9 @@ body {
         width: 320px;
         height: 250px;
         bottom: 5px;
+    }
+    #main div h1 {
+        font-size: 28px;
     }
     #main div button {
         font-size: 18px;
