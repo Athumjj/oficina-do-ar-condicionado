@@ -54,8 +54,10 @@ body {
     bottom: 30px;
 }
 
-#main div h1 {
+#main h1 {
+    position: absolute;
     font-size: 49px;
+    top: 100px;
 }
 
 #main div a {
@@ -88,7 +90,7 @@ body {
         height: 250px;
         bottom: 5px;
     }
-    #main div h1 {
+    #main h1 {
         font-size: 28px;
     }
     #main div button {
