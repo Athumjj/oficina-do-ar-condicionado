@@ -32,13 +32,13 @@ body {
 
 #main {
     display: flex;
-    background-image: url(oficina.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+#main img {
+    block-size: 1200px;
 }
 
 #main div {
@@ -57,7 +57,7 @@ body {
 #main h1 {
     position: absolute;
     font-size: 49px;
-    top: 100px;
+    top: 450px;
 }
 
 #main div a {
@@ -85,6 +85,9 @@ body {
     #menubar h1 {
         font-size: 22px;
     }
+    #main img {
+        block-size: 520px;
+    }
     #main div {
         width: 320px;
         height: 250px;
@@ -92,10 +95,47 @@ body {
     }
     #main h1 {
         font-size: 28px;
+        top: 100px;
     }
     #main div button {
         font-size: 18px;
         margin: 5px;
         height: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    #menubar {
+        height: 48px;
+    }
+
+    #menubar img {
+        block-size: 40px;
+    }
+
+    #menubar h1 {
+        font-size: 18px;
+    }
+
+    #main img {
+        block-size: 300px;
+    }
+
+    #main div {
+        width: 90%;
+        height: auto;
+        bottom: 10px;
+        padding: 10px;
+    }
+
+    #main h1 {
+        font-size: 20px;
+        top: 80px;
+    }
+
+    #main div button {
+        font-size: 16px;
+        margin: 6px 0;
+        height: 44px;
     }
 }
