@@ -2,7 +2,7 @@ import { FaFacebook, FaWaze, FaWhatsapp } from "react-icons/fa";
 
 function App() {
   return (
-    <div className="w-full h-screen overflow-hidden">
+    <div className="w-full h-screen">
       <div className="w-full h-[50%] bg-cyan-600 flex justify-center">
         <h1 className="absolute text-4xl text-white font-bold top-10 text-center">OFICINA DO AR CONDICIONADO</h1>
         <h3 className="absolute text-2xl md:text-3xl text-white top-25 mt-5 md:mt-0 text-center">Vendas de Equipamentos</h3>
