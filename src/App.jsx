@@ -16,7 +16,7 @@ function App() {
         </div>
       </div>
       <div className="block md:hidden">
-        <div className="absolute w-full text-white flex flex-col gap-y-4 justify-center items-center bottom-15">
+        <div className="absolute w-full text-white flex flex-col gap-y-4 justify-center items-center bottom-10">
           <a href="https://wa.me/5519999185602" target="_blank"><button className="px-12 py-2 w-50 bg-green-600 rounded-md shadow font-bold flex justify-center items-center"><FaWhatsapp className="size-11 mr-2"/> WhatsApp</button></a>
           <a href="https://www.facebook.com/share/1BS5j2acrC/" target="_blank"><button className="px-12 py-2 w-50 bg-blue-900 rounded-md shadow font-bold flex justify-center items-center"><FaFacebook className="size-11 mr-2"/> Facebook</button></a>
           <a href="https://waze.com/ul?ll=-22.6046620, -47.4162390&navigate=yes" target="_blank"><button className="px-12 py-2 w-50 bg-blue-500 rounded-md shadow font-bold flex justify-center items-center"><FaWaze className="size-11 mr-2"/> Waze</button></a>
