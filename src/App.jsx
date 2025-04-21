@@ -6,7 +6,7 @@ function App() {
       <div className="w-full h-[50%] bg-cyan-600 flex justify-center">
         <h1 className="absolute text-4xl text-white font-bold top-10 text-center">OFICINA DO AR CONDICIONADO</h1>
         <h3 className="absolute text-2xl md:text-3xl text-white top-25 mt-5 md:mt-0 text-center">Vendas de Equipamentos</h3>
-        <img src="./public/logo.png" alt="logo" className="absolute top-35"/>
+        <img src="/logo.png" alt="logo" className="absolute top-35"/>
       </div>
       <div className="hidden md:block">
         <div className="absolute w-full text-white flex flex-row gap-x-4 justify-center bottom-15">
